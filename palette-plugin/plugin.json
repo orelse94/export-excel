@@ -1,0 +1,12 @@
+{
+    "name": "paletteGen",
+    "source": [
+        "color-thief.min.js",
+        "paletteGen.js"
+    ],
+    "style": [
+        "paletteStyle.css"
+    ],
+    "folderName": "palette-plugin",
+    "lastUpdate": "2017-09-18T14:49:34.640Z"
+}

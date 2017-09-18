@@ -1,0 +1,117 @@
+
+.pop {
+  width: 500px;
+  height: 450px;
+
+}
+
+.form-style {
+  width: 500px;
+  height: 350px;
+  margin-left: 2px;
+  }
+
+
+.header-lbl {
+  display: block;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+
+}
+
+.input-palette-name {
+  color: grey;
+  width: 90%;
+  margin: 10px;
+  display: block;
+
+}
+
+
+.obj-palette {
+  padding: 10px;
+
+}
+
+
+.palette-lbl {
+  font-weight: 100;
+  font-size: 13px;
+  display: inline-block;
+  color: gray;
+  vertical-align: middle;
+
+
+  }
+
+#paletteFile {
+  display: none;
+}
+
+.palette-button {
+  display: block;
+  width: 90%;
+  margin: 10px;
+  background: #ffcb05;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  z-index: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  padding: 6px 13px;
+  align-items: flex-start;
+  text-align: center;
+
+}
+
+
+.invisible {
+  visibility: hidden;
+}
+
+.noImage {
+  color: red;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+#colorsPreview {
+  height: 50px;
+  padding: 10px;
+  margin: 0 100px;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;;
+}
+
+#palettePre {
+  width: 90%;
+  background: none;
+  border: none;
+  color: #ffcb05;
+  font-style: italic;
+  text-align: end;
+
+
+
+}
+
+.hexDivs {
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+
+}

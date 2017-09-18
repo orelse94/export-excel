@@ -1,0 +1,58 @@
+<div class="pop">
+  <div class="header-lbl">Create Custom Palette</div>
+
+<form name="paletteForm" class="form-style">
+  <div class="obj-palette">
+
+      <div class="palette-lbl">
+        Palette Name:
+      </div>
+
+      <div>
+        <input class="input-palette-name" type="text" name="paletteName" data-ng-model="in.name">
+
+
+        <h1 id='noName' class='invisible'>you must choose a name!</h1>
+
+      </div>
+
+    </div>
+
+    <div class="obj-palette">
+        <div class="palette-lbl">
+          Image Source:
+        </div>
+
+        <div>
+              <div>
+                  <label for="paletteFile" class="palette-button" >
+                   Choose an Image
+                 </label>
+                  <input id="paletteFile" type="file"  accept="image/*" data-ng-model="in.filush" app-filereader />
+
+
+                  </div>
+
+              </div>
+              <div>
+                <div class="palette-lbl">
+                  Or Insert a URL:
+                </div>
+                <input class="input-palette-name" id="paletteUrl" type="text" data-ng-model="in.imgUrl"/>
+                <button id="palettePre" data-ng-click="in.imgWatcher(in.filush,in.imgUrl)"> Preview Palette </button>
+                <div id="colorsPreview"></div>
+
+      </div>
+
+
+      <div class="palette-lbl">
+      </div>
+      <div>
+        <h1 id='noImageError' class='invisible'>you must choose an image!</h1>
+      <div>
+        <button data-ng-click="in.postPalette(in.name,in.imgUrl)" class="palette-button"> Generate Palette </button>
+    </div>
+  </div>
+  </form>
+
+</div>
